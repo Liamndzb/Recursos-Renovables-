@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recursos Renovables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(120deg, #d4fc79, #96e6a1);
+        color: #2c3e50;
+    }
+
+    header {
+        background: linear-gradient(to right, #11998e, #38ef7d);
+        color: white;
+        text-align: center;
+        padding: 70px 20px;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin: 0;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    }
+
+    header p {
+        font-size: 1.4em;
+        margin-top: 15px;
+    }
+
+    .contenedor {
+        max-width: 1200px;
+        margin: auto;
+        padding: 60px 20px;
+    }
+
+    .descripcion {
+        text-align: center;
+        font-size: 1.3em;
+        margin-bottom: 60px;
+        background: rgba(255,255,255,0.6);
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+    }
+
+    .galeria img {
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient(135deg, #a8e6cf, #56ab2f);
+    box-shadow: 
+        0 12px 25px rgba(0,0,0,0.2),
+        inset 0 0 0 3px rgba(255,255,255,0.7);
+    transition: all 0.4s ease;
+}
+
+.galeria img:hover {
+    transform: translateY(-10px) scale(1.04);
+    box-shadow: 
+        0 20px 40px rgba(0,0,0,0.3);
+}
+
+
+    footer {
+        background: linear-gradient(to right, #11998e, #38ef7d);
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin-top: 80px;
+        font-size: 1.2em;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        font-size: 2.5em;
+        margin-top: 15px;
+        animation: flotar 3s ease-in-out infinite;
+    }
+
+    @keyframes flotar {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+        100% { transform: translateY(0); }
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>La energía del futuro nace de la naturaleza.</h1>
+    <p>🌱 Energías limpias para un planeta mejor</p>
+</header>
+
+<div class="contenedor">
+
+    <div class="descripcion">
+        <p>
+            Los recursos renovables son la energía del futuro: 
+            <strong>limpios, naturales y esenciales</strong> para proteger nuestro planeta. 🌎
+        </p>
+    </div>
+
+    <div class="galeria">
+        <img src="imagen 1.jpeg" alt="Energías renovables">
+        <img src="imagen 2.jpeg" alt="Iconos ecológicos">
+        <img src="imagen 3.jpeg" alt="Paneles solares y aerogeneradores">
+        <img src="imagen 4.jpeg" alt="Energía sostenible">
+    </div>
+
+</div>
+
+<footer>
+    <p>♻️ Cuidar la naturaleza es cuidar nuestro futuro ♻️</p>
+    <div class="iconos">
+        ☀️ 🌬️ 💧 🌱
+    </div>
+</footer>
+
+</body>
+</html>
+
